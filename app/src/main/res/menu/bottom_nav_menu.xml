@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/foodsFragment"
+        android:icon="@drawable/food_selector"
+        android:title="@string/paketler"/>
+
+    <item
+        android:id="@+id/foodsBasketFragment"
+        android:icon="@drawable/basket_selector"
+        android:title="@string/basket" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile_selector"
+        android:title="@string/profile" />
+</menu>

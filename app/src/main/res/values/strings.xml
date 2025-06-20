@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FitChef</string>
+
+    <string name="cancel">CANCEL</string>
+    <string name="add_basket">SEPETE EKLE</string>
+    <string name="sign_up">KAYDOL</string>
+    <string name="sign_in">GİRİŞ YAP</string>
+
+    <string name="search_view_hint">Paket ismi giriniz</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="phone_number_hint">Telefon Numarası</string>
+    <string name="e_mail_hint">E - Mail</string>
+    <string name="password_hint">Şifre</string>
+    <string name="confirm_password_hint">Şifrenizi Onaylayın</string>
+
+    <string name="profile_picture_description">Profile Picture Description</string>
+    <string name="e_mail_address">E - Mail</string>
+    <string name="nickname">Nickname</string>
+    <string name="phone_number">Telefon\nNumarası</string>
+    <string name="sign_out">Çıkış Yap</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="payment_method">Ödeme Yöntemi</string>
+    <string name="choose_a_payment_method">Ödeme Yöntemi Seçiniz</string>
+    <string name="address_title">Adres Başlığı</string>
+    <string name="edit">Edit</string>
+    <string name="total_price">Toplam Tutar</string>
+    <string name="order_now">Ödemeyi Tamamla</string>
+    <string name="best_sellers">PAKETLER</string>
+    <string name="basket_empty">Sepet Boş</string>
+    <string name="go_to_pay">Ödemeyi Yap</string>
+    <string name="food_image_description">Food Image Description</string>
+    <string name="add_basket_snack_text">Paketiniz Sepete Eklendi!</string>
+    <string name="add_food_basket_error">Paket zaten sepetinizde mevcut!</string>
+    <string name="add_basket_description">Add Basket Description</string>
+    <string name="food_delete_icon">Food Delete Icon</string>
+    <string name="sepete_ekle">Sepete Ekle</string>
+    <string name="your_order_has_been_received">Siparişiniz Alındı</string>
+    <string name="diyet_logo">Diyet Logo</string>
+    <string name="wrong_email_password">E-mail ve Şifre Hatalı,Tekrar Deneyin !</string>
+    <string name="foods">Foods</string>
+    <string name="basket">Sepet</string>
+    <string name="profile">Profil</string>
+    <string name="save">Save</string>
+    <string name="address_error">Ödeme Yapmak İçin Adres Giriniz.</string>
+    <string name="order_now_error">Ödeme Yapmak İçin Kart Seçiniz.</string>
+    <string name="credit_card">Mastercard</string>
+    <string name="paypal">PayPal</string>
+    <string name="apple_pay">Apple Pay</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="paketler">Paketler</string>
+
+
+</resources>

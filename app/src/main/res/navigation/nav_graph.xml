@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@+id/foodsFragment">
+
+    <fragment
+        android:id="@+id/foodsFragment"
+        android:name="com.example.fitchef.ui.main.foods.FoodsFragment"
+        android:label="FoodsFragment"
+        tools:layout="@layout/fragment_foods">
+        <action
+            android:id="@+id/action_foodsFragment_to_foodDetailBottomSheet"
+            app:destination="@id/foodDetailBottomSheet" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodsBasketFragment"
+        android:name="com.example.fitchef.ui.main.foodsbasket.FoodsBasketFragment"
+        android:label="FoodsBasketFragment"
+        tools:layout="@layout/fragment_foods_basket">
+        <action
+            android:id="@+id/action_foodsBasketFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.fitchef.ui.main.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+    <dialog
+        android:id="@+id/foodDetailBottomSheet"
+        android:name="com.example.fitchef.ui.main.food_detail.FoodDetailBottomSheet"
+        android:label="FoodDetailBottomSheet"
+        tools:layout="@layout/food_detail_bottom_sheet">
+
+        <argument
+            android:name="foodModel"
+            app:argType="com.example.fitchef.data.model.Food" />
+    </dialog>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.fitchef.ui.main.payment.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment">
+        <action
+            android:id="@+id/action_paymentFragment_to_foodsFragment"
+            app:destination="@id/foodsFragment" />
+        <action
+            android:id="@+id/action_paymentFragment_to_foodsBasketFragment"
+            app:destination="@id/foodsBasketFragment" />
+    </fragment>
+</navigation>
