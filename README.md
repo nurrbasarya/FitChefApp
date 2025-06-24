@@ -37,10 +37,10 @@ Ana Ekran
 </h2>
 
 <h3 align="left">
-- RecyclerView + DataBinding ile paketler listelendi. <br>
-- Paket arama özelliği paket içeriği, paket adı ve örnek menü ile çalışır. Arama, recyclerview'daki SearchView ile yapılabilir.<br>
-- Paket resmine basıldığında Bottom Sheet açılır ve ayrıntılar görüntülenir. Paketi Sepete Ekle butonu ile sepete gönderilir. <br>
-- CardView'daki  "+" düğmesi, kitabı sepete eklemek için kullanılır. (Not: Resimler url ile eklenir.)<br>
+- RecyclerView + DataBinding ile paketler listelenir. <br>
+- Paket arama özelliği; paket adı, içeriği ve örnek menü üzerinden çalışır. Arama işlemi, RecyclerView içindeki SearchView bileşeni ile gerçekleştirilir. <br>
+- Paket resmine basıldığında Bottom Sheet açılır ve ayrıntılar görüntülenir. Paketi Sepete Ekle butonu ile paket sepete eklenir. <br>
+- CardView içindeki  "+" butonu, paketi sepete eklemek için kullanılır. (Not: Resimler url ile eklenir.)<br>
   
  </h3>
 <p align="center">
@@ -81,5 +81,5 @@ Kullanıcı Ekranı
 <img align="left" src="https://github.com/nurrbasarya/FitChefApp/blob/master/Screenshots/kullanici_bilgileri.jpg" width="250" height="530"/>
 
 <h3 align="center"><br><br><br><br><br>
-Kullanıcı bilgileri Firebase Auth ile alınır. "Oturumu Kapat" butonuna tıklanarak hesaptan çıkış yapılır.
+ Kullanıcı bilgileri Firebase Auth ile alınır. "Çıkış Yap" butonuna tıklanarak hesaptan çıkış yapılır.
 </h3>
